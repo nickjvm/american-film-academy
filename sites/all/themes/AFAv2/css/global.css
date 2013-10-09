@@ -1,0 +1,68 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+#region-sidebar-second {
+  padding-bottom: 150px;
+  background: url(../images/movie_slate.png) bottom center no-repeat;
+}
+#region-sidebar-second .content ul li {
+  list-style-type: disc;
+}
+#region-sidebar-second .content ul.inline li.last {
+  margin-right: 0;
+}
+#region-sidebar-second .line-item-summary {
+  padding: 0 8px;
+}
+.view-seminars .item-list li {
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+table {
+  border: 0;
+}
+table tr.odd,
+table tr.even {
+  background: transparent;
+  border: 0;
+}
+table tr.odd td,
+table tr.even td {
+  background: transparent;
+}
+table tr.odd:hover,
+table tr.even:hover {
+  background: transparent;
+}
+table tr.odd:hover td,
+table tr.even:hover td {
+  background: transparent;
+}
+#edit-checkout,
+.line-item-summary-checkout {
+  display: none !important;
+}
+.line-item-summary-view-cart {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+#block-views-49b6732f64a8875dbf7456afd1ecb544 table {
+  table-layout: fixed;
+}
+#block-views-49b6732f64a8875dbf7456afd1ecb544 table td:nth-child(1) {
+  width: 20px;
+}
+#block-views-49b6732f64a8875dbf7456afd1ecb544 table td:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+}
+.view-id-header_images .view-content {
+  height: 400px;
+}
+nav.navigation {
+  z-index: 100;
+}
+article .content .field-name-field-image {
+  display: none;
+}

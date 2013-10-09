@@ -1,0 +1,142 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+body {
+    background:url(../images/paper_3.png);   
+    font-family:Helvetica,Arial,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+ color:#2C1C0E;
+    font-family:Helvetica,Arial,sans-serif;
+}
+.right {
+    text-align:right;   
+}
+.contact {
+    line-height: 20px
+    margin:0;   
+}
+.contact a {
+    color:#ADADAD;   
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#page {
+   min-height:100%;
+   position:relative;
+}
+#section-content {
+   /*padding-bottom:200px;   /* Height of the footer */
+    padding-top:20px;
+    margin-bottom:20px;
+    padding-bottom:40px;
+}
+#section-footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+}
+#block-block-1 {
+    background:url(../images/source/clapper.jpg) center center no-repeat;
+    background-size:100%;
+    height:400px;
+    position:relative;
+    z-index:0;
+}
+#zone-menu nav {
+    margin-top: -40px;
+    /*margin-bottom: 24px;*/
+    position:relative;
+    z-index:100;
+}
+/*#zone-menu {
+    margin-top:20px;   
+}*/
+#main-menu li {
+    padding:0;
+    margin:0;
+}
+#main-menu li:nth-child(1) a {
+    background:#d89b29;   
+}
+#main-menu li:nth-child(2) a {
+    background:#726658;   
+}
+#main-menu li:nth-child(3) a {
+    background:#BE1E2D;   
+}
+#main-menu li:nth-child(4) a {
+    background:#518257;   
+}
+#main-menu li:nth-child(5) a {
+    background:#4E8DBE;   
+}
+
+#main-menu li a {
+    display:inline-block;
+    width:20%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    text-align: center;
+    padding: 10px;
+    opacity:.8;
+    font-weight:normal;
+    color:#FFF;
+    text-decoration:none; 
+}
+#main-menu li a {
+    padding: 30px 0 0 10px;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: .7em;
+    text-transform: uppercase;
+}
+#main-menu li a:hover {
+    opacity:1;   
+}
+#section-footer {
+    background:#2c1c0e;
+    color:#ccc;
+    padding:10px;
+    box-sizing:border-box;
+   
+}
+#section-footer:before {
+    position: absolute;
+    z-index: -1;
+    content: " ";
+    background: url(../images/lettering.png) center center no-repeat;
+    top: -210px;
+    left: 50%;
+    width: 960px;
+    height: 215px;
+    margin-left: -480px;
+}
+#region-sidebar-second .content ul {
+    margin-left: 1.5em;
+    margin-top: .5em;   
+}
+#block-block-3 em {
+    
+}
+a:link, a:visited {
+    color:#726658;   
+}
+a:hover {
+    text-decoration:none;
+}
+#zone-branding {
+    margin-bottom:1em;
+}
+#page > header {
+    padding-top:1em;
+}
+#zone-content {
+    padding-bottom:180px;
+}   
+#region-content .region-content-inner li {
+}

@@ -1,0 +1,65 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+#region-sidebar-second {
+    padding-bottom:150px;
+    background:url(../images/movie_slate.png) bottom center no-repeat;
+    .content ul {
+        li {
+            list-style-type:disc;
+        }
+        &.inline {
+            li {
+                &.last {
+                    margin-right:0;   
+                }
+            }
+        }
+        
+    }
+    .line-item-summary {
+        padding:0 8px;   
+    }
+    
+}
+.view-seminars {
+    .item-list {
+        li {
+            margin-bottom:10px;
+            margin-left:0;
+            
+        }
+    }
+    
+}
+table {
+    border:0;
+    tr.odd, tr.even {
+        background:transparent;
+        border:0;
+        td {
+            background:transparent;   
+        }
+        &:hover {
+            background:transparent;
+            td {
+                background:transparent;   
+            }
+        }
+    }
+}
+#edit-checkout, .line-item-summary-checkout {
+    display:none !important;   
+}
+.line-item-summary-view-cart {
+    margin-right:0 !important;
+    padding-right:0 !important;
+}
+#block-views-header-images-block {
+	z-index:0;
+	position:relative;
+	.view-content {
+		height:400px;
+		overflow:hidden;
+	}
+}	
